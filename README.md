@@ -1,6 +1,6 @@
 # Developer Cheatsheet
 
-A collection of handy commands I've found during developments.
+A collection of handy commands I've found during development.
 
 ## Table of Contents
 
