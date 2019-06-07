@@ -27,3 +27,9 @@ git rm --cached <file>
   ```bash
   git pull upstream master
   ```
+
+### 3. Amending a staged changed to a previous commit
+
+```bash
+(some_branch) git commit --amend
+```
