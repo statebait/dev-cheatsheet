@@ -8,12 +8,6 @@ git rm --cached <file>
 
 ### 2. Keeping a fork upto date:
 
-- Clone your fork:
-
-  ```bash
-  git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
-  ```
-
 - Add remote from original repository in your forked repository:
 
   ```bash
@@ -28,8 +22,28 @@ git rm --cached <file>
   git pull upstream master
   ```
 
-### 3. Amending a staged changed to a previous commit
+- To update the remote fork on GitHub (or any other git hosting site):
+
+  ```bash
+  git push origin master
+  ```
+
+### 3. Amending a staged changed to a previous commit:
 
 ```bash
 (some_branch) git commit --amend
 ```
+
+### 4. Deleting tags (locally and remotely):
+
+- Delete local tag:
+
+  ```bash
+  git tag -d <tag>
+  ```
+
+- Delete remote tag (for eg. on GitHub)
+
+  ```bash
+  git push --delete origin <tag>
+  ```
