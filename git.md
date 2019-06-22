@@ -12,19 +12,23 @@ git rm --cached <file>
 
   ```bash
   cd into/cloned/fork-repo
-  git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
-  git fetch upstream
+  # remote name can be anything you want
+  git remote add <remote_name> git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+  git fetch <remote_name>
   ```
 
 - Updating your fork from original repo to keep up with their changes:
 
   ```bash
-  git pull upstream master
+  # for branch master (you can change this for any branch)
+  git pull <remote_name> master
   ```
 
 - To update the remote fork on GitHub (or any other git hosting site):
 
   ```bash
+  # this assumes that the remote forks name is origin (which is usually the case)
+  # branch name can be changed up to your liking
   git push origin master
   ```
 
