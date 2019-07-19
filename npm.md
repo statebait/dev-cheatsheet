@@ -25,3 +25,17 @@
 ```bash
 npm repo
 ```
+
+### 3. To initialize a repo:
+
+- Basic use:
+
+  ```bash
+  npm init
+  ```
+
+- With all defaults:
+
+  ```bash
+  npm init --y
+  ```
