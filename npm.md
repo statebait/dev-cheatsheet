@@ -39,3 +39,9 @@ npm repo
   ```bash
   npm init --y
   ```
+
+### 4. To add a package from a GitHub repository:
+
+```bash
+npm install <repo_link>
+```
