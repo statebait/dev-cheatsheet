@@ -7,6 +7,7 @@ A collection of handy commands I've found during development.
 1. [Git commands](./git.md)
 2. [Docker commands](./docker.md)
 3. [NPM commands](./npm.md)
+4. [Bash commands](./bash.md)
 
 ## License
 
