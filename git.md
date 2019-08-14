@@ -52,9 +52,15 @@ git rm --cached <file>
   git push --delete origin <tag>
   ```
 
-### 5. Resetting a repo to a certain commit along with a remote
+### 5. Resetting a repo to a certain commit along with a remote:
 
 ```bash
  git reset --hard <commit>
  git push -f <remote_name> master
+```
+
+### 6. Viewing the current code diff:
+
+```bash
+git diff
 ```
