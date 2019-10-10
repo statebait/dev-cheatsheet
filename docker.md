@@ -80,3 +80,9 @@ docker-compose build
 # In the repository with docker-compose.yml
 docker-compose up
 ```
+
+### 14. Deleting all untagged(dangling) images:
+
+```bash
+docker rmi $(docker images -f “dangling=true” -q)
+```
