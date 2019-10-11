@@ -76,10 +76,19 @@ docker-compose build
 
 ### 13. Starting containers using docker compose:
 
-```bash
-# In the repository with docker-compose.yml
-docker-compose up
-```
+- Regular:
+
+  ```bash
+  # In the repository with docker-compose.yml
+  docker-compose up
+  ```
+
+- Background (Detached mode):
+
+  ```bash
+  # In the repository with docker-compose.yml
+  docker-compose up -d
+  ```
 
 ### 14. Deleting all untagged(dangling) images:
 
