@@ -7,34 +7,48 @@
 docker build -t <image_name> .
 ```
 
-### 2. List your images:
+### 2. Run an image:
+
+- Regular:
+
+  ```bash
+  docker run <image_name>
+  ```
+
+- Binding a port at run time:
+
+  ```bash
+  docker run -p <container_port>:<host_port> <image_name>
+  ```
+
+- Setting a name for the container at run time:
+
+  ```bash
+  docker run --name <container name> <image name>
+  ```
+
+### 3. List your images:
 
 ```bash
 docker image ls
 ```
 
-### 3. Delete a specific image:
+### 4. Delete a specific image:
 
 ```bash
 docker image rm [image name]
 ```
 
-### 4. Delete all existing images:
+### 5. Delete all existing images:
 
 ```bash
 docker image rm $(docker images -a -q)
 ```
 
-### 5. List all existing containers (running and not running):
+### 6. List all existing containers (running and not running):
 
 ```bash
 docker ps -a
-```
-
-### 6. Change a container name at running time:
-
-```bash
-docker run --name [container name] [image name]
 ```
 
 ### 7. Stop a specific container:
