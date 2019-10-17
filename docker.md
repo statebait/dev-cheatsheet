@@ -27,6 +27,12 @@ docker build -t <image_name> .
   docker run --name <container name> <image name>
   ```
 
+- Running a container in the background (detached):
+
+  ```bash
+  docker run -d <image_name>
+  ```
+
 ### 3. List your images:
 
 ```bash
