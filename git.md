@@ -64,3 +64,18 @@ git rm --cached <file>
 ```bash
 git diff
 ```
+
+### 7. Reverting changes done in a folder:
+
+- If you have not yet indexed (git add) your changes:
+
+  ```bash
+  git checkout -- path/to/folder
+  ```
+
+- If changes are indexed then you need to reset that first:
+
+  ```bash
+  git reset -- path/to/folder
+  git checkout -- path/to/folder
+  ```
