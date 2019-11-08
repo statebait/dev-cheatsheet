@@ -115,3 +115,9 @@ docker-compose build
 ```bash
 docker rmi $(docker images -f “dangling=true” -q)
 ```
+
+### 15. Executing a command in a running container:
+
+```bash
+docker exec <command>
+```
