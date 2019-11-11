@@ -32,11 +32,25 @@ git rm --cached <file>
   git push origin master
   ```
 
-### 3. Amending a staged changed to a previous commit:
+### 3. Amending a staged changed to a previous commit or updating the commit message:
 
-```bash
-(some_branch) git commit --amend
-```
+- Regular (will open selected editor for editing commit message):
+
+  ```bash
+  git commit --amend
+  ```
+
+- Editing the commit message directly:
+
+  ```bash
+  git commit --amend -m "<your new message>"
+  ```
+
+- Without editing commit message:
+
+  ```bash
+  git commit --amend --no-edit
+  ```
 
 ### 4. Deleting tags (locally and remotely):
 
