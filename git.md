@@ -93,3 +93,9 @@ git diff
   git reset -- path/to/folder
   git checkout -- path/to/folder
   ```
+
+### 8. Updating the local list of remote branches:
+
+```bash
+git remote update origin --prune
+```
