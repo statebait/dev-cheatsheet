@@ -1,5 +1,61 @@
 # Git Commands
 
+## Stash superpowers
+
+> Great tutorial: https://www.atlassian.com/git/tutorials/saving-changes/git-stash
+
+Knowing how to leverage `git stash` is a superpower and the following commands will allow you to do just that:
+
+- Basic use (will store current changes to the stash):
+
+```bash
+git stash
+```
+
+- Save untracked files by:
+
+```
+git stash -u
+```
+
+- View(list) your stash:
+
+```bash
+git stash list
+```
+
+- Store a stash with a message:
+
+```bash
+git stash save "fire"
+```
+
+- Pop a stash(will pop the recent most stash):
+
+```bash
+git stash pop
+```
+
+- Pop a specific stash:
+
+```bash
+git stash pop <stash_id>
+```
+
+- Apply a stash without removing it(will apply the recent most stash):
+
+```bash
+git stash apply
+```
+
+- Apply a specific stash without removing it:
+
+```bash
+git stash apply <stash_id>
+```
+
+## Regular
+
 ### 1. To stop tracking a file (which is present in .gitignore):
 
 ```bash
