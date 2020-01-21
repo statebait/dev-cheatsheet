@@ -11,4 +11,4 @@ A collection of handy commands I've found during development.
 
 ## License
 
-This project is licensed under the MIT License - Copyright (c) 2019 Mohamed Shadab
+This project is licensed under the MIT License - Copyright (c) 2020 Mohamed Shadab
