@@ -155,3 +155,9 @@ git diff
 ```bash
 git remote update origin --prune
 ```
+
+### 9. Renaming a local branch:
+
+```bash
+git branch -m <new_name>
+```
