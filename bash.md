@@ -14,7 +14,7 @@ rm <folder_path> -rf
 
 ### 3. To list files and folders inside present working directory:
 
-- Baise use:
+- Basic use:
 
   ```bash
   ls
