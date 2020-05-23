@@ -122,7 +122,7 @@ git rm --cached <file>
   git push --delete origin <tag>
   ```
 
-### 5. Resetting a repo to a certain commit along with a remote:
+### 5. Resetting a repo to a certain commit along with a remote(this will delete the changes made):
 
 ```bash
  git reset --hard <commit>
@@ -160,4 +160,10 @@ git remote update origin --prune
 
 ```bash
 git branch -m <new_name>
+```
+
+### 10. Undoing your last commit:
+
+```bash
+git reset HEAD~
 ```
