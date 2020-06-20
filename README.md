@@ -4,10 +4,10 @@ A collection of handy commands I've found during development.
 
 ## Table of Contents
 
-1. [Git commands](./git.md)
-2. [Docker commands](./docker.md)
-3. [NPM commands](./npm.md)
-4. [Bash commands](./bash.md)
+1. [General commands](./general.md)
+2. [Git commands](./git.md)
+3. [Docker commands](./docker.md)
+4. [NPM commands](./npm.md)
 
 ## License
 
